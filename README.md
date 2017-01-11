@@ -8,7 +8,7 @@ SK2SK is the application for transformation between following projections:
  - S42-3 (EPSG:28403)
 
 EXAMPLES:<br>
-docker run --rm --name some-sk2sk stano/sk2sk /bin/bash -c 'echo 18 48 |/sk2sk -d J'<br>
-docker run --rm --name some-sk2sk stano/sk2sk /bin/bash -c 'echo 18 48 |/sk2sk -d 3'<br>
-docker run --rm --name some-sk2sk stano/sk2sk /bin/bash -c 'echo 18 48 |/sk2sk -d 4'<br>
-docker run --rm --name some-sk2sk stano/sk2sk /bin/bash -c 'echo -390563 -1250645 |/sk2sk -d W'<br>
+ - docker run --rm --name some-sk2sk stano/sk2sk /bin/bash -c 'echo 18 48 |/sk2sk -d J'<br>
+ - docker run --rm --name some-sk2sk stano/sk2sk /bin/bash -c 'echo 18 48 |/sk2sk -d 3'<br>
+ - docker run --rm --name some-sk2sk stano/sk2sk /bin/bash -c 'echo 18 48 |/sk2sk -d 4'<br>
+ - docker run --rm --name some-sk2sk stano/sk2sk /bin/bash -c 'echo -390563 -1250645 |/sk2sk -d W'<br>
